@@ -126,28 +126,3 @@ It checks if the file exist if not it downloads the csv file
 
 
 
-## Data Observations
-
-This preview shows that some columns potentially have a lot of missingness so we'll want to make sure to look into that later.
-New_Price has only 1006 values. 86 % values are missing
-
-Price, which is a Target variable 17 % missing values.This needs to be analysed further.
-
-Seats has only 53 values missing and number of seats can be one of key factor in deciding price.
-
-Power and Engine has 46 missing values.
-
-Mileage only has two values missing.
-
-Mileage,Power,Engine,New_Price we know are quantitative variables but are of object 
-dtype here and needs to to converted to numeric.
-
-Maximum car being sold have fuel type as Diesel.
-
-Mumbai has highest numbers of car availabe for purchase.
-
-5204 cars with Manual transmission are available for purchase.
-
-Most of the cars are 5 seaters and First owned.
-
-Years of car ranges form 1996- 2015
